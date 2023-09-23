@@ -172,44 +172,76 @@ main {
 }
 
 .Magazine-img {
-  width:48%;
+  width: 48%;
 }
-.Magazine-img img{
-  width:100%;
-  height:100%;
+
+.Magazine-img img {
+  width: 100%;
+  height: 100%;
   object-fit: fill;
 }
+
 .Magazine-text {
-  width:48%;
-  display:flex;
+  width: 48%;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+/* 이벤트 */
+.events {
+}
+
+.eventsInner {
+  display: flex;
+  width: 100%;
+}
+
+.eventsInner-left {
+  width:40%
+}
+
+.eventsInner-right {
+  width:60%;
+}
+
 @media (max-width:590px) {
+
+  /* br {
+    display: inline-block;
+    content: " ";
+    padding: 0 2px;
+  } */
+  .mainContent-text h3 {
+    font-size: 24px;
+  }
+
   .magazine-content {
     display: flex;
     width: 100%;
     flex-direction: column;
-    height: 63vh;
+    height: 55vh;
   }
-  
+
   .Magazine-img {
-    width:100%;
+    width: 100%;
     height: 59%;
   }
-  .Magazine-img img{
-    width:100%;
-    height:100%;
+
+  .Magazine-img img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
+
   .Magazine-text {
-    width:100%;
-    display:flex;
+    width: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .mainContent-text {
-    width: 65%;
+    width: 80%;
   }
 }
