@@ -3,6 +3,7 @@
 .container {
   max-width: 640px;
   min-width: 390px;
+  font-weight: bold;
 }
 
 header {
@@ -28,6 +29,7 @@ header {
   height: 29px;
   font-size: 29px;
 }
+
 /* 내브 밑 */
 .navLower {
   height: 52px;
@@ -43,64 +45,104 @@ header {
   margin-top: 20px;
   height: 15px;
   font-size: 1.3rem;
-  font-weight: bold;
 }
+
 .navLowerPrimary li {
-  margin-left:24px;
+  margin-left: 24px;
 }
-.navLowerPrimary li:first-child{
-  margin:0;
+
+.navLowerPrimary li:first-child {
+  margin: 0;
 }
-.navLowerPrimary  img {
-  width:16px;
+
+.navLowerPrimary img {
+  width: 16px;
   height: 16px;
   vertical-align: middle;
 }
+
 /* 메인 */
-main{
-  display:flex;
-  background:white;
-  position:relative;
+main {
+  display: flex;
+  background: white;
+  position: relative;
+  max-width: 640px;
+  min-width: 390px;
+  flex-direction: column;
+  height: 5000px;
 }
+
 /* 메인컨텐츠 */
-.mainContent{
-  width:100%;
-  display:flex;
+.mainContent {
+  width: 100%;
+  display: flex;
   flex-direction: column;
 }
-.mainContent li{
-  width:100%;
-  
+
+.mainContent li {
+  width: 100%;
+
 }
-.mainContent a{
-  display:flex;
-  width:100%;
+
+.mainContent a {
+  display: flex;
+  width: 100%;
   height: 30vh;
 }
 
-.mainContent-text{
+.mainContent-text {
   flex-grow: 1;
-  padding:24px;
-  background:#6bdcc5;
-  display:flex;
+  padding: 24px;
+  background: #6bdcc5;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-weight: bold;
   width: 30%;
 }
-.mainContent-text h3{
+
+.mainContent-text h3 {
   font-size: 30px;
-  
+
 }
-.mainContent-text-ps{
-  margin-top:24px;
+
+.mainContent-text-ps {
+  margin-top: 24px;
 }
-.mainContent-img{
+
+.mainContent-img {
   flex-grow: 3;
   height: 100%;
 }
-.mainContent-img > img{
+
+.mainContent-img>img {
   height: 100%;
-  width:100%;
-  object-fit:cover;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* home */
+.home {
+  margin-top: 48px;
+  padding: 0 24px;
+}
+
+.homeDiv {
+  display: flex;
+}
+
+.homeDivText {
+  font-size: 19px;
+}
+.homeDivText span{
+  display: block;
+}
+/* 편지 */
+.page-section{
+  margin-top:96px;
+  padding:0 24px;
+}
+.pageInner{
+  border:3px solid black;
+  padding:24px;
+  font-size:19px
 }
