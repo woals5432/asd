@@ -4,6 +4,7 @@
   max-width: 640px;
   min-width: 390px;
   font-weight: bold;
+  word-break: break-all;
 }
 
 header {
@@ -27,7 +28,7 @@ header {
 .navUp h1 {
   width: 113px;
   height: 29px;
-  font-size: 29px;
+  font-size: 20px;
 }
 
 /* 내브 밑 */
@@ -44,7 +45,7 @@ header {
   width: 100%;
   margin-top: 20px;
   height: 15px;
-  font-size: 1.3rem;
+  font-size: 13px;
 }
 
 .navLowerPrimary li {
@@ -101,7 +102,7 @@ main {
 }
 
 .mainContent-text h3 {
-  font-size: 30px;
+  font-size: 20px;
 
 }
 
@@ -144,5 +145,11 @@ main {
 .pageInner{
   border:3px solid black;
   padding:24px;
-  font-size:19px
+  font-size:19px;
+}
+.pageInner p {
+  padding:15px;
+}
+.pageInner >div{
+  border-bottom:3px solid black;
 }
