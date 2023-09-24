@@ -189,8 +189,7 @@ main {
 }
 
 /* 이벤트 */
-.events {
-}
+.events {}
 
 .eventsInner {
   display: flex;
@@ -199,48 +198,97 @@ main {
 }
 
 .eventsInner-left {
-  width:33%;
+  width: 33%;
   font-size: 30px;
 }
 
 .eventsInner-right {
-  width:69%;
-  margin-left:24px;
-  display:flex;
+  width: 69%;
+  margin-left: 24px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.rightInner{
-  display:flex;
+
+.rightInner {
+  display: flex;
 }
-.rightText{
-  width:60%;
-  display:flex;
+
+.rightText {
+  width: 60%;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.rightText1{
+
+.rightText1 {
   font-size: 20px;
 }
-.rightText2{
+
+.rightText2 {
   font-weight: 300;
 }
-.rightText2 p:first-child{
-  font-size:20px;
+
+.rightText2 p:first-child {
+  font-size: 20px;
   font-weight: bold;
 }
-.rightImg{
-  margin-left:24px;
+
+.rightImg {
+  margin-left: 24px;
 }
 
-.rightImg img{
-  width:100%;
+.rightImg img {
+  width: 100%;
   height: 100%;
 }
-.eventsView{
 
+.eventsView {
+  margin-top: 20px;
 }
 
+/* 배너 */
+.banner {
+  display: flex;
+  background: #FF8F1C;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 24px;
+  height: 24vh;
+}
+
+.bannerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.bannerText h3 {
+  font-size: 32px;
+}
+
+.bannerText span {
+  font-size: 21px;
+}
+
+.bannerImg img {
+  width: 100%;
+  height: 100%;
+}
+/* 스토어 */
+.store{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 35vh;
+}
+.store h3 {
+  font-size: 30px;
+}
+.storeContent{
+  
+}
 
 
 
@@ -264,9 +312,10 @@ main {
     flex-direction: column;
     height: 55vh;
   }
+
   .mainContent a {
     height: 25vh;
-    width:100%
+    width: 100%
   }
 
   .Magazine-img {
@@ -282,7 +331,7 @@ main {
 
   .Magazine-text {
     width: 100%;
-    margin-top:20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -291,23 +340,51 @@ main {
   .mainContent-text {
     width: 80%;
   }
+
   .eventsInner {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 39vh;
   }
-  .rightText{
-    width:50%;
+
+  .rightText {
+    width: 50%;
     justify-content: space-evenly;
   }
-  .rightImg{
-    width:50%
+
+  .rightImg {
+    width: 50%
   }
-  .eventsInner-right{
-    margin-top:65px;
-    margin-left:0;
+
+  .eventsInner-right {
+    margin-top: 65px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .banner {
+    flex-direction: column;
+    height: 30vh;
+  }
+  .bannerImg{
     width:100%;
+    height: 60%;
+    display: flex;
+    flex-grow: 1;
+  }
+  .bannerText h3 {
+    font-size: 28px;
   }
   
+  .bannerText span {
+    font-size: 21px;
+    margin-top:15px
+  }
+  .bannerImg img{
+    margin:auto;
+    width:127px;
+    height: 121px;
+    object-fit: 1pxill;
+  }
 }
