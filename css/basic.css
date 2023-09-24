@@ -195,6 +195,7 @@ main {
 .eventsInner {
   display: flex;
   width: 100%;
+  height: 30vh;
 }
 
 .eventsInner-left {
@@ -214,6 +215,19 @@ main {
 }
 .rightText{
   width:60%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.rightText1{
+  font-size: 20px;
+}
+.rightText2{
+  font-weight: 300;
+}
+.rightText2 p:first-child{
+  font-size:20px;
+  font-weight: bold;
 }
 .rightImg{
   margin-left:24px;
@@ -222,6 +236,9 @@ main {
 .rightImg img{
   width:100%;
   height: 100%;
+}
+.eventsView{
+
 }
 
 
@@ -238,7 +255,7 @@ main {
     padding: 0 2px;
   } */
   .mainContent-text h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .magazine-content {
@@ -246,6 +263,10 @@ main {
     width: 100%;
     flex-direction: column;
     height: 55vh;
+  }
+  .mainContent a {
+    height: 25vh;
+    width:100%
   }
 
   .Magazine-img {
@@ -261,6 +282,7 @@ main {
 
   .Magazine-text {
     width: 100%;
+    margin-top:20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -269,4 +291,23 @@ main {
   .mainContent-text {
     width: 80%;
   }
+  .eventsInner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 39vh;
+  }
+  .rightText{
+    width:50%;
+    justify-content: space-evenly;
+  }
+  .rightImg{
+    width:50%
+  }
+  .eventsInner-right{
+    margin-top:65px;
+    margin-left:0;
+    width:100%;
+  }
+  
 }
