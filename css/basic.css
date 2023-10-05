@@ -278,6 +278,10 @@ main {
   width: 100%;
   height: 100%;
 }
+.bannerImg2{
+  width:100%;
+  height: 100%;
+}
 /* 스토어 */
 .store{
   display: flex;
@@ -382,22 +386,27 @@ main {
     flex-direction: column;
     height: 41vh;
   }
-  .bannerImg{
-    margin:auto;
-    width:30%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-  }
+  
   .bannerText h3 {
     font-size: 28px;
-  }
-  
+  }  
   .bannerText span {
     font-size: 21px;
     margin-top:15px
   }
+  .bannerImg{
+    width:100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  .bannerImg2{
+    display:flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
   .bannerImg img{
-    margin:auto;
+    width:auto;
   }
 }
